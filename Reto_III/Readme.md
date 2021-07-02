@@ -1,6 +1,5 @@
 # Reto 3: Grupo P1
 
-
 ## ArpaLlanera Hero Pro
 
 James Hammett y Kirk Hetfield ya están en Colombia, y su juego ArpaLlanera Hero ha sido todo un éxito. Sin embargo, el juego se les está haciendo un poco predecible y repetitivo, así que deciden consultar a Cliff Newsted y a Lars Trujillo por alguna idea innovadora para sacar la versión Pro del video juego. Éstos deciden sentarse a estudiar escalas y entrenar el oído musical, y se les ocurre una variación del juego para hacerlo más entretenido.
@@ -11,8 +10,7 @@ Un ejemplo sencillo de ésta dinámica se puede hacer con la canción “Master 
 
 Como usted cumple ahora dos roles, "jalacables" y programador, decide construir un programa que resuelve la extensión propuesta. En este caso, usted va a hacer un programa que recibe la sucesión de cuerdas que está escuchando (y adivinando) el jugador, que puede estar en minúscula o en mayúscula, y cada sonido separado por coma. La salida debe ser en primera instancia la sucesión de cuerdas, representadas en mayúscula, sin tener en cuenta los sonidos repetidos, y debajo de cada cuerda, la cantidad de veces que sonó esta de manera consecutiva.
 
-
-**Entrada**
+<br >**Entrada**
 
 La entrada consta de una sucesión de caracteres separados por coma que corresponden a las cuerdas asociadas a los sonidos determinados por el jugador.
 
@@ -20,10 +18,10 @@ La entrada consta de una sucesión de caracteres separados por coma que correspo
 
 La salida consta de dos líneas: la primera es la sucesión de sonidos de cuerdas sin repeticiones, en mayúscula y separadas por espacio; la segunda es la cantidad de veces que se repitió cada sonido de cuerda de manera consecutiva, separado también por espacio.
 
+
 | 						Entrada  		          	  | 				Salida         			|
 | ----------------------------------------------------| ----------------------------------------|
 | E,E,e,E,E,d,E,E,D,c,C,E,E,B,E,E,a,E,A,E,g,E,G,E,f,E | E D E D C E B E A E A E G E G E F E 	|
-|													  |											|
 |       											  | 5 1 2 1 2 2 1 2 1 1 1 1 1 1 1 1 1 1 	|
 
 
